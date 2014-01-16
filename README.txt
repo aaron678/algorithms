@@ -1,1 +1,1 @@
-A collection of Java algorithm tasks given in coding interviews. Some of these I've gotten personally in interviews and others I found during interview preparation. Of particular interest are the variations of the parenthesis matching task.
+A collection of Java algorithm tasks given in coding interviews. Some of these I've gotten personally in interviews and others I found during interview preparation. Of particular interest are the variations of the parentheses matching task.
