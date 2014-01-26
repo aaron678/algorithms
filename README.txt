@@ -14,4 +14,4 @@ Under src/com/study/algorithms/ are the following algorithmic task solutions.
 
 	primes- Calculates prime numbers with a version that improves on O(n) time complexity.
 
-	reverse- A recursive solution and a solution that performs the string reversal in place. TODO- reverse the order of digits in a number utilizing the modulo operator.
+	reverse- Reverse a string. A recursive solution and a solution that performs string reversal in place are shown. A solution which reverses the order of digits in an integer utilizing the modulo operator.
