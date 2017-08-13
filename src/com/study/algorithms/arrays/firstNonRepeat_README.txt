@@ -2,7 +2,7 @@ This problem came from code fights.
 “Write a solution that only iterates over the string once and uses O(1) additional memory.
 Given a string s, find and return the first instance of a non-repeating character in it. If there is no such character, return '_'.
 
-Discussion. 
+Discussion.  
 
 This test is seems simple but it is interesting because the algorithm you create depends on the test cases you are writing for. Here it is critical to get the important edge cases before coding. The initial version of my solution did not have the iWuzAlreadyRemoved structure. Everything worked except when the number of duplicates was odd. When the duplicates were odd, that character kept getting added back into the non-duplicates list, so I needed another data structure to track characters that were previously removed from the non-duplicates setbut didn’t exist in that set any longer.
 

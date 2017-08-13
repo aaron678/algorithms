@@ -3,7 +3,7 @@ package com.study.algorithms.arrays;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class FirstNonRepeatTest {
+public class FirstNonRepeatTest  {
 
 	@Test
 	public void oddNumberDuplicate() {

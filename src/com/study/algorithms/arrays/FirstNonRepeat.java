@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class FirstNonRepeat {
+public class FirstNonRepeat  {
 	
 	Character firstNotRepeatingCharcacter(String s) {
 		Set<Character> firstNonRepeat = new LinkedHashSet<Character>();
