@@ -6,8 +6,8 @@ class BinaryTree
     Node root;
  
     public BinaryTree()
-    {
-        root = null;
+    { 
+        root =  null;
     }
  
     /* function to print level order traversal of tree*/

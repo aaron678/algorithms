@@ -10,7 +10,7 @@ class BinaryTree
  
     public BinaryTree()
     {
-        root = null;
+        root =  null;
     }
  
     /* function to print level order traversal of tree*/

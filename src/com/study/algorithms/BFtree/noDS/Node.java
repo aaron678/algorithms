@@ -6,7 +6,7 @@ package com.study.algorithms.BFtree.noDS;
 node and key value*/
 class Node
 {
- Integer data;
+ Integer  data;
  Node left, right;
  public Node(int item)
  {
