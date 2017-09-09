@@ -1,0 +1,1 @@
+This task takes a singly liked list and removes an element containing a certain values. There are two solutions. One is iterative, using a while loop and the other is recursive.
