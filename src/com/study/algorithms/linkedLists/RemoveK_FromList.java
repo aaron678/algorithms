@@ -1,4 +1,4 @@
-package com.study.algorithms.cf.linkedLists;
+package com.study.algorithms.linkedLists;
 
 public class RemoveK_FromList {
 	// iterative version

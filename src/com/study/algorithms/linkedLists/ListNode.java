@@ -1,4 +1,4 @@
-package com.study.algorithms.cf.linkedLists;
+package com.study.algorithms.linkedLists;
 
 public class ListNode<T> {
 	ListNode(T x){
