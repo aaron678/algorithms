@@ -1,1 +1,0 @@
-Implementation of a bubble sort whereby adjacent array elements are switched if not already in the correct order. Repeated passes are performed until the array is sorted.
