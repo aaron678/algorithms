@@ -1,0 +1,7 @@
+This exercize is to take concrete representations of the head and tail functions and abstract them into a more general API.
+
+Note: that Arrays.toString() produces the desired listing of the array contents. anArray.toString() is the inherited behavior from Object which is a concatenation of the class name plus the objects hash code.
+
+You need to be carefully conceptually with these substrings and copyOfRanges. The start position needs to be before the elements you want to capture (hence a 0 to capture the first element) while the end position needs to encompass the element you want to include (hence the use of length).
+
+This SO article is a discussion of the same issue which recommends the use of a handler.
