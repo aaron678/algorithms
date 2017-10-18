@@ -4,4 +4,5 @@ Note: that Arrays.toString() produces the desired listing of the array contents.
 
 You need to be carefully conceptually with these substrings and copyOfRanges. The start position needs to be before the elements you want to capture (hence a 0 to capture the first element) while the end position needs to encompass the element you want to include (hence the use of length).
 
-This SO article is a discussion of the same issue which recommends the use of a handler.
+This SO article is a discussion of the same issue which recommends the use of a handler and a hash map which maps a class name to a class specific handler.
+https://stackoverflow.com/questions/29570767/switch-over-type-in-java

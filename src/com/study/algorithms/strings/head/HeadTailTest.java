@@ -17,9 +17,9 @@ public class HeadTailTest {
 		assertEquals("Strings dont match","ello",strResult);
 		
 		int[] i = new int[]{1,2,3,4,5};
-		int  intResult = new HeadTail().head2(i);
+		int  intResult = new HeadTail().head(i);
 		assertEquals(1, intResult);
-		int[] intResult2 = new HeadTail().tail2(i);
+		int[] intResult2 = new HeadTail().tail(i);
 		assertArrayEquals("Arrays dont match", new int[]{2,3,4,5}, intResult2 );
 	}
 
