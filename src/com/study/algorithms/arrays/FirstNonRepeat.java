@@ -7,11 +7,11 @@ import java.util.Set;
 public class FirstNonRepeat  {
 	
 	Character firstNotRepeatingCharcacter(String s) {
-		Set<Character> firstNonRepeat = new LinkedHashSet<Character>();
-		Set<Character> iWuzAlreadyRemoved = new HashSet<Character>();
+		Set<Character> firstNonRepeat = new LinkedHashSet<>();
+		Set<Character> iWuzAlreadyRemoved = new HashSet<>();
 		
 		for (int i =0; i<s.length(); i++ ){
-			Character c  = new Character(s.charAt(i));
+			Character c  = Character.valueOf(s.charAt(i));
 			if(firstNonRepeat.contains(c)){
 				firstNonRepeat.remove(c);
 				iWuzAlreadyRemoved.add(c);
