@@ -11,7 +11,7 @@ public class FirstNonRepeat  {
 		Set<Character> iWuzAlreadyRemoved = new HashSet<Character>();
 		
 		for (int i =0; i<s.length(); i++ ){
-			Character c = new Character(s.charAt(i));
+			Character c  = new Character(s.charAt(i));
 			if(firstNonRepeat.contains(c)){
 				firstNonRepeat.remove(c);
 				iWuzAlreadyRemoved.add(c);
